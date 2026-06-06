@@ -1,2 +1,0 @@
-# About
-Data Engineering & Analytics
