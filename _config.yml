@@ -1,16 +1,22 @@
 title: Rajalakshmi Venkatesan
 email: Rajalakshmivenkatesan05@gmail.com
-url: https://Rajalakshmi0503.github.io
+
+url: "https://Rajalakshmi0503.github.io"
+baseurl: "/rajalakshmivenkatesan.github.io"
+
 github_username: Rajalakshmi0503
 linkedin_username: rajalakshmi-venkatesan
+
 theme: minima
 markdown: kramdown
+
 header_pages:
   - index.md
   - about.md
   - projects.md
   - resume.md
   - contact.md
+
 collections:
   projects:
     output: true
