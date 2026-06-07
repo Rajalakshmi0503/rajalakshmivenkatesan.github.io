@@ -5,7 +5,8 @@
   <title>{{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {{ '/assets/css/style.css' | relative_url }}
+  <!-- CSS link -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 
 <body>
@@ -15,11 +16,11 @@
   <div class="container">
     <h2 class="logo">Rajalakshmi</h2>
     <nav>
-      /Home</a>
-      /about/About</a>
-      /projects/Projects</a>
-      /resume/Resume</a>
-      /contact/Contact</a>
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/projects/">Projects</a>
+      <a href="/resume/">Resume</a>
+      <a href="/contact/">Contact</a>
     </nav>
   </div>
 </header>
@@ -28,11 +29,11 @@
 <section class="hero">
   <div class="container">
     <h1>Rajalakshmi Venkatesan</h1>
-    <p>Data Engineer | Analytics Specialist | Intelligent Systems</p>
+    <p>Data Engineer | Analytics | Intelligent Systems</p>
   </div>
 </section>
 
-<!-- PAGE CONTENT -->
+<!-- MAIN CONTENT -->
 <main class="container">
   {{ content }}
 </main>
@@ -44,3 +45,4 @@
 
 </body>
 </html>
+``
